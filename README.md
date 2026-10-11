@@ -42,6 +42,13 @@ string with `''` is not analysed (use plain, single-quoted or block scalars — 
 
 ![Quick documentation](docs/04-documentation.png)
 
+## More Klardaten plugins
+
+- [HAProxy Config](https://github.com/klardaten-dev/haproxy-config) — HAProxy configuration: completion, navigation, 6 inspections, docs from the HAProxy manuals
+- [VCL Language Tools](https://github.com/klardaten-dev/vcl-language-tools) — Varnish and Fastly VCL: completion, cross-file navigation, 8 inspections
+- [Puppet Manifest Tools](https://github.com/klardaten-dev/puppet-manifest-tools) — Puppet manifests: Puppet 8 legacy-fact fixer, attribute checks, completion
+- [DNS Zone File Tools](https://github.com/klardaten-dev/dns-zone-tools) — BIND-style zone files: 70+ record types, trailing-dot, CNAME, SPF/DMARC checks
+
 ## Source code
 The plugin is closed source (free to use under the EULA); this repository hosts its documentation, license and issue
 tracker. The source code is not public.
