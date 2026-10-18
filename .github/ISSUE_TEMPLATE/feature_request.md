@@ -6,6 +6,6 @@ labels: enhancement
 
 **What would you like the plugin to do?**
 
-**Example query or rule where it would help:**
+**Example config where it would help:**
 ```
 ```

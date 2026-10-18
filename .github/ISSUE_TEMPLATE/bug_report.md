@@ -8,7 +8,7 @@ labels: bug
 
 **Plugin version:**
 
-**Prometheus version you target:**
+**Prometheus version (and file type: .promql, rule file, PrometheusRule, promtool test):**
 
 **Minimal query or rule snippet** (remove secrets and internal host names):
 ```

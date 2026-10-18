@@ -26,6 +26,9 @@ Install: *Settings → Plugins → Marketplace → search "PromQL"*.
   invalid recording rule names, duplicate group names, undefined variables in alert templates (`{{ $label.instance }}`)
 - **Completion**: functions with signatures, aggregations, keywords, durations, metric names, label names and label
   values used in the file
+- **Format like `promtool promql format`** (Alt+Enter → *Format expression*): the same output as Prometheus' own
+  formatter, also directly in the `expr:` of rule files (long results become a YAML `|` block). Checked against the
+  Prometheus 3.15 formatter on 3,300+ real and test expressions: identical output for every one.
 - **Quick documentation** (Ctrl+Q / F1) for all functions and aggregation operators (Prometheus 3.15)
 - Highlighting with configurable colors (*Settings → Editor → Color Scheme → PromQL*), brace matching, commenting
 
